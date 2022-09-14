@@ -31,14 +31,14 @@ const Form = (props) => {
             <form onSubmit={onSave}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
                 <TextField
-                    label="Nome"
+                    label="Nome *"
                     placeholder="Digite seu nome"
                     required={true}
                     value={name}
                     onChanged={value => setName(value)}
                 />
                 <TextField
-                    label="Cargo"
+                    label="Cargo *"
                     placeholder="Digite seu cargo"
                     required={true}
                     value={position}
@@ -51,14 +51,14 @@ const Form = (props) => {
                     onChanged={value => setImage(value)}
                 />
                 <Combobox
-                    label="Time"
+                    label="Time *"
                     itens={props.teamNames}
                     required={true}
                     value={team}
                     onChanged={value => setTeam(value)}
                 />
                 <Button>
-                    Criar Card
+                    Enviar
                 </Button>
             </form>
         </section>
