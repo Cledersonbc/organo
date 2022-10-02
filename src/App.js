@@ -8,14 +8,14 @@ function App() {
 
   const teams = [
     {
-      name: 'Programação',
-      primaryColor: '#57C278',
-      secondColor: '#D9F7E9'
-    },
-    {
       name: 'Front-end',
       primaryColor: '#B2CFFA',
       secondColor: '#E8F8FF'
+    },
+    {
+      name: 'Back-end',
+      primaryColor: '#57C278',
+      secondColor: '#D9F7E9'
     },
     {
       name: 'Data Science',

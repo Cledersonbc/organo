@@ -22,11 +22,8 @@ const Footer = () => {
             </ul>
         </section>
         <section>
-            <img src="/images/logo.png" alt="" />
-        </section>
-        <section>
             <p>
-                Desenvolvido por &copy; Clederson.
+                Desenvolvido por Clederson &copy; 2022.
             </p>
         </section>
     </footer>)
