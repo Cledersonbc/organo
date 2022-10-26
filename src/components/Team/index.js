@@ -10,7 +10,7 @@ const Time = (props) => {
                     key={worker.name}
                     name={worker.name}
                     position={worker.position}
-                    image={worker.image}
+                    image={worker.image || '/images/no-picture.png'}
                     primaryColor={props.primaryColor} />)}
             </div>
         </section>
